@@ -1,0 +1,116 @@
+:root{
+    --bg-color:#0A3F41;
+    --text-color:#ADFF2F;
+}
+.bg-color{
+    background-color: #0A3F41 !important;
+}
+.text-color{
+    color: whitesmoke !important;
+}
+.text-color1{
+    color: #0A3F41 !important;
+}
+.all-category li{
+    border:1px solid gray;
+    border-top: none;
+    list-style-type: none;
+    padding: 6px 10px;
+    font-size: 18px !important;
+    cursor: pointer;
+}
+.all-category li:hover{
+    background-color:#0A3F41;
+    color:white;
+}
+.current-order p{
+    line-height: 12px;
+}
+.current-order-img{
+    height: 200px !important;
+}
+nav ul li a{
+    color: white !important;
+    padding-left: 15px !important;
+    border-radius: 6px;
+}
+nav ul li a:hover{
+    color:#ADFF2F !important;
+    border-radius: 5px;
+
+}
+.title-img1{
+    background-image: url(../Images/womens.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+
+    
+}
+.title-img4{
+    background-image: url(../Images/mens1.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+
+}
+.title-img3{
+    background-image: url(../Images/kids.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+
+
+}
+.title-img2{
+    background-image: url(../Images/womesn2.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+
+
+}
+.title-img{
+    width: 23.3%;
+}
+#liitem
+{
+  min-height: 30px;
+  min-width: 80px;
+  
+  border-radius: 5px;
+}
+#liitem:hover
+{
+  background-color: orange;
+  color: white;
+  transition: all ease 1s;
+  border-radius: 5px;
+}
+.serviceicon{
+    font-size: 60px;
+    margin-right: 15px;
+}
+.snipingservices{
+    border-right:2px solid white;
+   background-color: #0A3F41;
+   color: white;
+}
+.cartdivision{
+    box-shadow: 0px 0px 4px 0px grey;
+}
+.cartdivision1{
+    box-shadow: 0px 0px 1px 0px grey;
+}
+
+.float-button{
+    background-color: #0A3F41;
+    color: white;
+    width: 80px;
+    height: 45px;
+    font-size: 40px;
+    line-height: 45px;
+    padding-left: 25px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+    position:fixed;
+    top: 250px;
+    left: -20px;
+    cursor: pointer;
+}

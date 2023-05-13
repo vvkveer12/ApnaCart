@@ -27,7 +27,7 @@
     line-height: 12px;
 }
 .current-order-img{
-    height: 200px !important;
+    min-height: 200px !important;
 }
 nav ul li a{
     color: white !important;
